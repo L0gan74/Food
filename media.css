@@ -1,0 +1,210 @@
+@media (max-width: 1220px) {
+  .ingredients li {
+    width: auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  header {
+    padding-top: 5px;
+  }
+  .nav-right {
+    display: none;
+  }
+  .logo {
+    width: 45px;
+    height: 31px;
+  }
+  .burger-menu {
+    display: block;
+  }
+  .description-intro {
+    display: block;
+  }
+  .description-intro_block {
+    margin: 0 auto;
+    margin-bottom: 14px;
+    width: 290px;
+    height: 276px;
+  }
+  .description-intro_block-txt_bottom {
+    font-size: 22px;
+    line-height: 25px;
+  }
+  .description-intro_block-txt_top {
+    padding-bottom: 6px;
+  }
+  .description-intro_block img {
+    padding-top: 20px;
+  }
+  .slogan-text {
+    position: relative;
+    width: auto;
+    top: 300px;
+  }
+  .slogan-text h1 {
+    font-size: 30px;
+    line-height: 34px;
+  }
+  .slogan-text h1 span {
+    font-size: 40px;
+    line-height: 46px;
+  }
+  .slogan-text_bottom {
+    justify-content: center;
+    margin: 0 auto;
+    width: auto;
+    margin-left: 0;
+  }
+  .slogan-text_bottom img {
+    display: none;
+  }
+  .slogan-text_bottom h2 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .description-story {
+    display: block;
+    text-align: center;
+  }
+  .description-story_txt {
+    margin: 0 auto;
+    width: auto;
+  }
+  .description-story_txt h3 {
+    font-size: 40px;
+    line-height: 46px;
+    padding-bottom: 48px;
+  }
+  .description-story_txt h3 span {
+    display: block;
+  }
+  .description-story_txt-discodery {
+    display: none;
+  }
+  .description-story_txt-discodery__adp {
+    display: block;
+  }
+  .holiday-block {
+    display: block;
+    text-align: center;
+  }
+  .holiday-block_txt h4 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+    max-width: 270px;
+    margin: 0 auto;
+  }
+  .holiday {
+    padding: 20px 0 30px 0;
+    height: auto;
+  }
+  .holiday-block_txt p {
+    padding-bottom: 40px;
+    font-size: 24px;
+    line-height: 33px;
+    width: 290px;
+    margin: 0 auto;
+  }
+  .description {
+    padding: 0 0 50px 0;
+  }
+  .dishes-block {
+    display: block;
+  }
+  .dishes-block_img {
+    text-align: center;
+    display: block;
+    padding-bottom: 50px;
+  }
+  .menu-txt {
+    font-size: 54px;
+    line-height: 62px;
+    padding-bottom: 98px;
+  }
+  .dishes-block_img-main_left {
+    margin-right: 0;
+    max-height: 400px;
+    display: block;
+    width: 100%;
+  }
+  .menu {
+    padding: 62px 0 106px 0;
+    background-size: cover;
+  }
+  .dishes-block_right {
+    display: flex;
+    justify-content: center;
+  }
+  .dishes-txt {
+    padding-bottom: 68px;
+  }
+  .dishes-txt span {
+    display: block;
+    font-size: 40px;
+    line-height: 46px;
+  }
+  .dishes {
+    padding: 63px 0 80px 0;
+  }
+  .gallery-top,
+  .gallery-bottom {
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+  }
+  .gallery-top img,
+  .gallery-bottom img {
+    max-width: 300px;
+    max-height: 300px;
+    padding-bottom: 20px;
+  }
+  .gallery-bottom {
+    padding-top: 0;
+  }
+  .gallery {
+    padding: 70px 0;
+  }
+  .cooks-txt,
+  .gallery-txt {
+    font-size: 40px;
+    line-height: 46px;
+  }
+  .cooks-txt span,
+  .gallery-txt span {
+    display: block;
+  }
+  .cooks-block {
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+  }
+  .cooks {
+    padding-bottom: 20px;
+  }
+  .cooks-block img {
+    width: auto;
+    height: auto;
+  }
+  footer {
+    min-height: 500px;
+  }
+}
+
+@media (max-width: 600px) {
+  .description-story_img img {
+    display: block;
+    width: 100%;
+  }
+  .ingredients li {
+    display: grid;
+    place-items: center;
+  }
+  .cooks-block img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  footer {
+    min-height: 280px;
+  }
+}
